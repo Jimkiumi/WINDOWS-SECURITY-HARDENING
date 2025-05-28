@@ -1,0 +1,25 @@
+#What Are We Doing and Why?
+We’ll focus on securing a Windows environment, specifically:
+- Creating and applying Group Policy Objects (GPOs) to enforce password policies and other security settings.
+- Hardening the Administrator account and login process.
+
+# Why This Matters:
+Protects accounts from brute-force and password reuse attacks.
+Limits what attackers can do if they get access.
+Shows real-world blue team experience — great for LinkedIn, CVs, or interviews.
+Helps you understand Windows security controls from the inside out.
+
+# What You’ll Need:
+Windows 10/11 Pro or Enterprise (not Home edition). They are both Required for Group Policy Editor and Active Directory features.
+Administrator rights To edit security settings
+Patience & Curiosity coz This is how pros are made
+
+Step-by-Step Roadmap (Beginner-Friendly)
+Here’s a preview of what we’ll do. I’ll guide you through each step in detail afterward.
+- [Set Up] Make sure your system can run Group Policy Editor.
+- [Local Policy] Configure password policies (length, complexity, history).
+- [Account Lockout] Set lockout after multiple failed login attempts.
+- [Rename Admin Account] Change default "Administrator" username.
+- [Disable Guest] Turn off the Guest account.
+- [Hide Last Login Name] Prevent showing the last signed-in user.
+
